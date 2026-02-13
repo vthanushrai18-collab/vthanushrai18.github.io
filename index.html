@@ -162,6 +162,8 @@
             position: relative;
             padding-bottom: 56.25%;
             height: 0;
+            width: 100%;
+            aspect-ratio: 16 / 9;
             overflow: hidden;
             border-radius: 8px;
         }
@@ -176,29 +178,6 @@
             border-radius: 8px;
         }
 
-        /* Audio Player */
-        .audio-container {
-            background: rgba(30, 27, 75, 0.5);
-            border: 1px solid rgba(249, 168, 212, 0.2);
-            border-radius: 16px;
-            padding: 1.5rem;
-            width: 100%;
-            max-width: 400px;
-            text-align: center;
-        }
-
-        audio {
-            width: 100%;
-            max-width: 300px;
-            height: 40px;
-            outline: none;
-            border-radius: 20px;
-        }
-
-        audio::-webkit-media-controls-panel {
-            background: #1e1b4b;
-            border-radius: 20px;
-        }
 
         /* Letter Scroll Area */
         .letter-scroll {
@@ -494,18 +473,6 @@
                 </div>
                 <p class="text-xs mt-4 text-purple-300 opacity-60">Our special moments together</p>
             </div>
-
-            <!-- Song Section -->
-            <div class="memory-section text-center">
-                <p class="section-title">Our Song ♪</p>
-                <div class="audio-container mx-auto">
-                    <p class="font-dancing text-xl text-pink-200 mb-4">A melody for us</p>
-                    <!-- Replace with your audio file URL -->
-                    <audio controls>
-                        <source src="your-song.mp3" type="audio/mpeg">
-                        Your browser does not support audio.
-                    </audio>
-                </div>
             </div>
 
             <!-- Letter Section -->
@@ -682,7 +649,7 @@ for being a chapter I never treated lightly.
         const VIDEO_URL = "https://drive.google.com/file/d/1HyuoH7FfpxARp6IHSTTmoc1TRnnMl_Pv/preview";
         
         // The password required to access protected pages
-        const CORRECT_PASSWORD = "iloveyou";
+        const CORRECT_PASSWORD = "OpusA5";
         
         // ╔══════════════════════════════════════════════════════════════╗
         // ║                      APPLICATION STATE                        ║
